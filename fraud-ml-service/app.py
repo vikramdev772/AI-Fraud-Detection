@@ -4,7 +4,7 @@ import numpy as np
 import traceback
 
 app = Flask(__name__)
-print("🔥🔥 THIS IS THE CORRECT APP FILE RUNNING 🔥🔥")
+print("Fraud Detection ML Service Starting...")
 
 with open("fraud_model.pkl", "rb") as f:
     model = pickle.load(f)
